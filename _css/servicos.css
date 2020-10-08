@@ -68,10 +68,8 @@ h1#titulo{
 }
 .card{
     perspective: 1000px;
-    width: 100%;
-    height: 100%;
-   
-background-color: silver;
+    width: 200px;
+    height: 400px;
     box-sizing: border-box;
 }
 .card-container {
@@ -83,34 +81,32 @@ background-color: silver;
 }    
 
 .card:hover .card-container {
-    transform: rotateY(180deg);
+    transform: rotateY(-180deg);
 }
 
 .card-frontend, .card-backend {
     position: absolute;
     backface-visibility: hidden;
-    width: 100%;
-    height: 100%;
     border-radius: 10px;
     z-index: 1;
     box-sizing: border-box;
-    
-    border: 100%;
-}
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    padding: 5px;
 
-
+   
+}    
 .card-frontend {
-    background: white;
+    background:silver;
+   
 }
 
 .card-backend {
     transform: rotateY(180deg);
-    box-sizing: border-box;
-    padding: 15px;
-    font-size: 1rem;
+    
     
 }
-
 .cards h3{
     color: black;
     text-align: center;
