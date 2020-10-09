@@ -2,8 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
+
+
+body, html {
+    font-family: 'Libre Baskerville', serif;
+    margin: 0;
+    padding: 0;
+    background: white;
+
+}
+
 .banner-area{
-    background-image: url(../_imagens/img-empresa.jpg);
+    background-image: url(../_imagens/contato-img.png);
     position: relative;
     z-index: 1;
     background-attachment: fixed;
@@ -40,6 +50,10 @@ ul#homepage li a{
     font-weight: bold;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
 }
+/* Interface */
+
+
+
 
 
 /*  Footer */
